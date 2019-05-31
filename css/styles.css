@@ -13,4 +13,104 @@ body {
 	font-size: 1.6rem;
 	color: #333;
 	min-height: 100%;
+	background:  grey;
+	padding: 0;
+	margin: 0;
+}
+
+.desk {
+	height: 400px;
+	width: 400px;
+	background-image:
+      linear-gradient(45deg, #000 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #000 75%),
+      linear-gradient(45deg, transparent 75%, #000 75%),
+      linear-gradient(45deg, #000 25%, #fff 25%);    
+    background-size:100px 100px;       
+    background-position:0 0, 0 0, -50px -50px, 50px 50px;
+    position:  absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	outline: 10px solid #654321;
+}
+
+.chess {
+	height: 30px;
+    width: 30px;
+	display: inline-block;
+	background-color: #9acae7;
+	border-radius: 50%;
+	min-width: 30px;
+	position: absolute;
+}
+
+
+.chess--gold {
+	background-color: #d4af37;
+}
+
+
+.col-1 {
+	top: 10px;
+	left: 10px;
+}
+
+.col-2 {
+	top: 10px;
+	left: 60px;	
+}
+
+.col-3 {
+	top: 10px;
+	left: 110px;	
+}
+
+.col-4 {
+	top: 10px;
+	left: 160px;	
+}
+
+.col-5 {
+	top: 10px;
+	left:210px
+}
+
+.col-6 {
+	top: 10px;
+	left:260px
+}
+
+.col-7 {
+	top: 10px;
+	left:310px
+}
+
+.col-8 {
+	top: 10px;
+	left:360px
+}
+
+.row-1 {
+	top: 10px;
+}
+
+.row-2{
+	top:60px;
+}
+
+.row-3 {
+	top:110px
+}
+
+.row-6 {
+	top:260px;
+}
+
+.row-7 {
+	top:310px;
+}
+
+.row-8 {
+	top:360px
 }
